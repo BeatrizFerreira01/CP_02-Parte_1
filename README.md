@@ -1,94 +1,95 @@
-# 📱 Situação Militar BR
+# 📄 Projeto Situação Militar BR
 
-Aplicativo desenvolvido em **React Native** com o objetivo de fornecer informações sobre o alistamento militar obrigatório no Brasil.  
-Este projeto foi criado como parte da avaliação da disciplina de Desenvolvimento Mobile.
-
----
-
-## 🎯 Objetivo
-
-- Informar sobre a importância da situação militar no Brasil.
-- Ajudar jovens a entenderem como se alistar e regularizar sua situação.
-- Facilitar o preenchimento de dados através da integração com API de CEP (ViaCEP).
-- Apresentar dados de forma clara, bonita e acessível.
+**Aplicativo de Informações sobre Alistamento Militar**  
+Projeto desenvolvido para a disciplina de **Mobile Application Development**.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-- **React Native**
-- **React Navigation** (`@react-navigation/native`, `@react-navigation/bottom-tabs`)
-- **Expo** (facilitador para rodar o projeto)
-- **API pública:** [ViaCEP](https://viacep.com.br/) para buscar dados de endereço.
-
----
-
-## 📋 Funcionalidades
-
-- Tela inicial com explicações sobre a situação militar.
-- Telas informativas sobre o processo de alistamento.
-- Formulário para buscar cidade e estado através do CEP.
-- Tela sobre os desenvolvedores com link para o site oficial do Exército Brasileiro.
-- Menu de navegação por abas (Bottom Tabs Navigation).
-- Interface moderna, agradável e responsiva.
+## 🚀 Tecnologias Usadas
+- React Native
+- React Navigation (`@react-navigation/native`, `@react-navigation/bottom-tabs`)
+- Expo
+- API pública [ViaCEP](https://viacep.com.br/)
 
 ---
 
-## 🔗 API Integrada
+## 🛠️ Como Rodar o Projeto
 
-- **ViaCEP**: Utilizada para buscar automaticamente Cidade e Estado a partir do CEP informado no formulário de alistamento.
+### 1. Pré-requisitos
+- Node.js instalado
+- Expo CLI instalado
+- Celular com o app **Expo Go** ou emulador Android/iOS
 
-Exemplo de requisição:
+### 2. Clonar o repositório
+```bash
+git clone https://github.com/BeatrizFerreira01/CP_02-Parte_1.git
+```
 
+### 3. Navegar até o projeto
+```bash
+cd CP_02-Parte_1
+```
+
+### 4. Instalar dependências
+```bash
+npm install
+```
+
+### 5. Executar o projeto
+```bash
+expo start
+```
+
+Abra o **Expo Go** no seu celular e escaneie o QR Code para visualizar o app.
+
+---
+
+## 📱 Funcionalidades do App
+
+| Função | Descrição |
+|:------:|:---------|
+| Tela Inicial | Informações básicas sobre a situação militar. |
+| Telas Informativas | Explicações sobre o alistamento e regularização. |
+| Formulário de CEP | Preenche automaticamente cidade e estado via API. |
+| Tela de Desenvolvedores | Informações sobre a equipe e link para o site do Exército. |
+| Navegação por Abas | Acesso rápido às telas usando Bottom Tabs Navigation. |
+
+---
+
+## 🌐 API Integrada
+
+| API | Função |
+|:---:|:-------|
+| [ViaCEP](https://viacep.com.br/) | Buscar cidade e estado automaticamente a partir do CEP informado. |
+
+**Exemplo de requisição:**
 ```bash
 https://viacep.com.br/ws/89010025/json/
 ```
 
 ---
 
-## 🚀 Como Rodar o Projeto
+## 📋 Observações
 
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/BeatrizFerreira01/CP_02-Parte_1.git
-```
-
-2. Acesse a pasta do projeto:
-
-```bash
-cd CP_02-Parte_1
-```
-
-3. Instale as dependências:
-
-```bash
-npm install
-```
-
-4. Execute o projeto:
-
-```bash
-npm start
-```
-
-Ou, se estiver usando Expo:
-
-```bash
-expo start
-```
+- A navegação é feita por abas na parte inferior da tela (Bottom Tabs).
+- O formulário permite que o usuário encontre cidade e estado apenas digitando o CEP.
+- O aplicativo possui design limpo e responsivo, visando a melhor experiência para o usuário.
+- Este projeto foi criado com foco em praticar integração de APIs e navegação em React Native.
 
 ---
 
-## 👥 Desenvolvedores
-
-- Beatriz Ferreira Cruz
-- Gabrielly Campos Macedo
+## 👥 Desenvolvedoras
+- **Beatriz Ferreira Cruz**
+- **Gabrielly Campos Macedo**
 
 ---
 
-## 📜 Licença
+## 📚 Observações Finais
 
-Este projeto é apenas para fins educacionais.
+Este projeto foi desenvolvido como parte da disciplina de **Mobile Application Development** no curso de graduação, focando nos conceitos de:
+- Desenvolvimento de aplicações móveis usando React Native.
+- Integração de APIs públicas externas.
+- Navegação entre telas com React Navigation.
+- Boas práticas de organização e estilização de apps.
 
 ---
